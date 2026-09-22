@@ -1,0 +1,13 @@
+<h2>Solicitudes Académicas</h2>
+
+<div *ngFor="let solicitud of solicitudes">
+  <h3>{{ solicitud.asunto }}</h3>
+
+  <p><strong>Estudiante:</strong> {{ solicitud.estudiante }}</p>
+  <p><strong>Tipo:</strong> {{ solicitud.tipo }}</p>
+  <p><strong>Descripción:</strong> {{ solicitud.descripcion }}</p>
+  <p><strong>Estado:</strong> {{ solicitud.estado }}</p>
+  <p><strong>Fecha:</strong> {{ solicitud.fecha }}</p>
+
+  <hr>
+</div>
